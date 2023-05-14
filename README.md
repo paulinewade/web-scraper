@@ -76,7 +76,7 @@ git pull origin test
 
 4.) Create a docker container (if you haven't already)
 
-make sure you are in the directory one above the directory where the code is
+make sure you are in the directory where the code is
 
 docker run -it --volume "${PWD}:/directory" -e DATABASE_USER=scraper_user -e DATABASE_PASSWORD=scraper_password -p 3000:3000 paulinewade/csce431:latest
 
